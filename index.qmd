@@ -21,8 +21,6 @@ TBA
 
 ## Emfohlene Literatur {.unnumbered}
 
-<!-- <https://tinyurl.com/yc3ctth6> -->
-
 1. @DIETZ2019LineareAlgebraUnd (Deutsch): Kapitel 23 und 24
 2. @SCHWENKERT2015OperationsResearchKompakt (Deutsch): Teil 1
 3. @WILLIAMS2013ModelBuildingMathematical (English)

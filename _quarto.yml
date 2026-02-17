@@ -42,7 +42,7 @@ book:
     #     - cell_tower.ipynb
     #     # - Lineare-Algebra.ipynb
     #     # - Lineare-Algebra-Ex.ipynb
-    - Links.qmd
+    # - Links.qmd
     - references.qmd
     
 bibliography: references.bib

@@ -1,4 +1,4 @@
 # Resourcen {.unnumbered}
 
-- [https://www.gurobi.com/burrito-optimization-game/](https://www.gurobi.com/burrito-optimization-game/)
+- 
 - 
