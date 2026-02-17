@@ -223,3 +223,5 @@ _site/
 /.venv/
 lit/
 /hw/
+
+**/*.quarto_ipynb

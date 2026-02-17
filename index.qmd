@@ -8,25 +8,25 @@
 ![](figures/qr_code.png)
 :::
 
+## Notebooks
+
+Die Übungen werden in Jupyter Notebooks durchgeführt. Alle Notebooks sind in diesem Repository verfügbar: [{{< var github >}}]({{< var github >}}).
+
+- [Einführung]({{< var colabPrefix >}}02-Graphical-Method/01-Berlin-Airlift-Class.ipynb)
+
 ## Bewertung
 
-Die Bewertung besteht aus zwei Teilen:
+TBA
 
-- Zwei Hausaufgaben, die in Gruppen mit bis zu drei Personen bearbeitet werden können. Die Hausaufgaben weden nicht benotet, müssen aber abgegeben werden, um zum zweiten Teil der Bewertung zugelassen zu werden.
-- Eine Präsentation am Ende des Semesters (bis zu 10 Minuten), die auch in Gruppen von bis zu drei Personen gehalten werden kann. Die Präsentation wird benotet, Details dazu werden im Laufe des Semesters bekannt gegeben.
 
 ## Emfohlene Literatur {.unnumbered}
 
-<https://tinyurl.com/yc3ctth6>
+<!-- <https://tinyurl.com/yc3ctth6> -->
 
 1. @DIETZ2019LineareAlgebraUnd (Deutsch): Kapitel 23 und 24
 2. @SCHWENKERT2015OperationsResearchKompakt (Deutsch): Teil 1
 3. @WILLIAMS2013ModelBuildingMathematical (English)
 
-
-## Software
-
-In den Übungen werden wir die Programmiersprache Python verwenden, um die in der Vorlesung behandelten Themen zu erklären und an realen Daten zu üben. Die Übungen werden in Form von Jupyter Notebooks bereitgestellt, die Sie in Ihrer eigenen Umgebung ausführen können.
 
 ### GitHub Account
 
@@ -39,92 +39,4 @@ Für die Übungen brauchen Sie ein GitHub.com Konto:
 
 ### Google Colaboratory (empfohlen)
 
-Die Notebooks können auch in Google Colab ausgeführt werden. Dafür brauchen Sie ein Google-Konto. In Google Colab können Sie auch das KI Produkt Gemini benutzen.
-
-Um auf die Notebooks zuzugreifen, öffnen Sie zuerst die [Google Colab Website](https://colab.research.google.com/) und loggen Sie sich mit Ihrem Google-Konto ein.
-
-![Nach Einloggen](./figures/colab/01-After-Login.png)
-
-Nachdem Sie eingeloggt sind, klicken Sie auf "File" und dann auf "Open Notebook".
-
-![Open Notebook](./figures/colab/02-Open-Notebook.png)
-
-Wählen Sie "GitHub" und geben Sie den Namen des Kursrepositories ein:
-
-:::{.callout-note}
-## Name des Kursrepositories
-
-{{< var githubShort >}}
-:::
-
-
-![Github Button](./figures/colab/03-Github-Button.png)
-
-![Namen eingeben](./figures/colab/04-Github-Address.png)
-
-Die Notebooks in dem Kursrepository werden aufgelisted. Wählen Sie das Notebook, das Sie öffnen möchten.
-Das Notebook wird in Google Colab geöffnet. Sie können den Code ausführen, indem Sie auf den Play-Button klicken.
-
-
-<!-- ![Notebook auswählen](./figures/colab/05-List-of-Notebooks.png) -->
-
-
-![Notebook geöffnet](./figures/colab/06-Opened-Notebook.png)
-
-Bevor Sie den Code ausführen, wird Ihnen eine Warnung angezeigt. Klicken Sie auf "Run anyway".
-
-![Warnung](./figures/colab/07-Warning.png)
-
-### Git (optional)
-
-Falls Sie die Unterlagen lokal auf Ihrem Rechner bearbeiten möchten, ist es am einfachsten, Git zu installieren, um auf das GitHub Repository zuzugreifen.
-
-
-Installieren Sie Git von <https://git-scm.com/downloads>. Wählen Sie die Version, die zu Ihrem Betriebssystem passt und folgen Sie den Anweisungen. Lassen Sie die Standardeinstellungen unverändert, es sei denn, Sie wissen ganz genau, was Sie tun.
-
-
-### Visual Studio Code (optional)
-
-Visual Studio Code (VSC) ist ein Open-Source-Code-Editor, den wir für die Arbeit mit Python benutzen werden.
-
-Installieren Sie Visual Studio Code von <https://code.visualstudio.com/>. Wählen Sie die Version, die zu Ihrem Betriebssystem passt und folgen Sie den Anweisungen.
-
-### Kursrepository klonen (optional)
-
-Öffnen Sie VSC und drücken Sie `Ctrl+Shift+P`. Suchen Sie nach "Git: Clone" und drücken Sie Enter. Geben Sie die URL des Kursrepositories ein:
-
-``` plaintext
-{{< var githubHttps >}}
-```
-
-Wählen Sie einen Ordner auf Ihrem Computer, in dem Sie das Repository speichern möchten. VSC wird das Repository herunterladen und fragen, ob Sie es öffnen möchten. Klicken Sie auf "Open".
-
-Warten Sie einen Moment, bis VSC das Repository geöffnet hat. Sie sollten eine Ordnerstruktur sehen, die den Inhalt des Repositories darstellt. VSC wird Sie fragen, ob Sie die empfohlenen Erweiterungen installieren möchten. Klicken Sie auf "Install All".
-
-Am Ende sollten Sie die folgenden Erweiterungen installiert haben:
-
--   ms-python.autopep8
--   ms-python.python
--   ms-python.debugpy
--   ms-vscode-remote.remote-containers
--   ms-toolsai.jupyter
-
-Drucken Sie `Ctrl+Shift+X`. Dieses wird die Erweiterungsansicht öffnen. Überprüfen Sie ob alle Erweiterungen installiert sind. Falls nicht, kopieren Sie die Kennzeichen (z.B. `ms-python.autopep8`) der fehlenden Erweiterungen von der Liste (oben), finden Sie die Erweiterungen in der Erweiterungsansicht und installieren Sie sie manuell.
-
-### Anaconda 3 (optional)
-
-Es gibt viele Möglichkeiten, wie Sie Python local auf Ihrem Rechner installieren können. Hier zeigen wir die Installation mit Anaconda 3. Conda ist ein Paketmanager, der es ermöglicht, Python-Umgebungen zu verwalten. Eine Python-Umgebung ist eine isolierte Instanz von Python, die es ermöglicht, verschiedene Versionen von Python und verschiedenen Bibliotheken zu verwenden, ohne dass sie sich gegenseitig beeinflussen. Das ist vor allem dann nützlich, wenn Sie an verschiedenen Projekten arbeiten, die unterschiedliche Anforderungen an Python und Bibliotheken haben.
-
--   Laden Sie das Miniconda Installationspaket von <https://www.anaconda.com/download/success> für Ihr Betriebssystem.
-
--   Starten Sie das Packet und folgen Sie den Anweisungen. Lassen Sie die Standardeinstellungen unverändert, es sei denn, Sie wissen was Sie tun. Achtung: die Installation kann lange Zeit dauern.
-
--   Nachdem Miniconda installiert ist, öffnen Sie VSC. Drücken Sie `Ctrl+Shift+P` und starten Sie zu schreiben: "Python: Create environment". Wenn die Option in dem Dropdown-Menü erscheint, wählen Sie sie und drucken Sie Enter.
-
--   Wählen Sie "Conda".
-
--   Wählen Sie die Python-3.11 Version.
-
--   Dieses wird einen Order namens `.conda` erstellen.
-
--   Falls Sie diese Schritte in dem Order des Kursrepositories gemacht haben, werden dann automatisch die notwendingen Bibliotheken installiert.
+Die Notebooks können auch in Google Colab ausgeführt werden. Dafür brauchen Sie ein Google-Konto.

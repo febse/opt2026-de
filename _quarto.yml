@@ -12,7 +12,7 @@ book:
   date: last-modified
   chapters:
     - index.qmd
-    - Hausarbeiten.qmd
+    # - Hausarbeiten.qmd
     - part: "Einführung in Python"
       chapters:
         - 01-Python/01-Basics.ipynb
@@ -22,26 +22,26 @@ book:
       chapters:
         # - 03-Graphical-Method/00-Burritos.ipynb
         - 02-Graphical-Method/01-Berlin-Airlift.ipynb
-        - 02-Graphical-Method/02-Blending.ipynb
-        - 02-Graphical-Method/03-Sensitivity-Analysis.ipynb
+        # - 02-Graphical-Method/02-Blending.ipynb
+        # - 02-Graphical-Method/03-Sensitivity-Analysis.ipynb
 
-    - part: "Anwendungen"
-      chapters:
-        - IP-Urban-Planning.ipynb
-        - LP-Diet.ipynb
-        - Job-Assignment.ipynb
-        - Milonga-Ex.ipynb
-        - Prediction-Ex.ipynb
-        - Prediction.ipynb
-        - Lineare-Algebra.ipynb
-        - Cocktails-Excel-Python.ipynb
-        - Cocktails-Duality.ipynb
-        - Cocktails-Algebra.ipynb
-        - Max-Flow.ipynb
-        - Production-Distribution.ipynb
-        - cell_tower.ipynb
-        # - Lineare-Algebra.ipynb
-        # - Lineare-Algebra-Ex.ipynb
+    # - part: "Anwendungen"
+    #   chapters:
+    #     - IP-Urban-Planning.ipynb
+    #     - LP-Diet.ipynb
+    #     - Job-Assignment.ipynb
+    #     - Milonga-Ex.ipynb
+    #     - Prediction-Ex.ipynb
+    #     - Prediction.ipynb
+    #     - Lineare-Algebra.ipynb
+    #     - Cocktails-Excel-Python.ipynb
+    #     - Cocktails-Duality.ipynb
+    #     - Cocktails-Algebra.ipynb
+    #     - Max-Flow.ipynb
+    #     - Production-Distribution.ipynb
+    #     - cell_tower.ipynb
+    #     # - Lineare-Algebra.ipynb
+    #     # - Lineare-Algebra-Ex.ipynb
     - Links.qmd
     - references.qmd
     
