@@ -13,6 +13,8 @@
 Die Übungen werden in Jupyter Notebooks durchgeführt. Alle Notebooks sind in diesem Repository verfügbar: [{{< var github >}}]({{< var github >}}).
 
 - [Einführung]({{< var colabPrefix >}}02-Graphical-Method/01-Berlin-Airlift-Class.ipynb)
+- [Mischung]({{< var colabPrefix >}}02-Graphical-Method/02-Blending-Class.ipynb)
+- [Sensitivitätsanalyse]({{< var colabPrefix >}}02-Graphical-Method/03-Sensitivity-Analysis-Class.ipynb)
 
 ## Bewertung
 
