@@ -12,20 +12,11 @@ book:
   date: last-modified
   chapters:
     - index.qmd
-    # - Hausarbeiten.qmd
-    # - part: "Einführung in Python"
-    #   chapters:
-    #     - 01-Python/01-Basics.ipynb
-    #     - 01-Python/02-Numpy.ipynb
-    #     - 01-Python/03-Pandas.ipynb     
-    - part: "Die graphische Methode"
-      chapters:
-        # - 03-Graphical-Method/00-Burritos.ipynb
-        - 02-Graphical-Method/01-Berlin-Airlift.ipynb
-        - 02-Graphical-Method/02-Blending-Class.ipynb
-        - 02-Graphical-Method/03-Sensitivity-Analysis-Class.ipynb
-        # - 02-Graphical-Method/02-Blending.ipynb
-        # - 02-Graphical-Method/03-Sensitivity-Analysis.ipynb
+    - 01-Introduction.ipynb
+    - 02-Blending.ipynb
+    - 03-Sensitivity-Analysis-Class.ipynb
+    # - 02-Graphical-Method/02-Blending.ipynb
+    # - 02-Graphical-Method/03-Sensitivity-Analysis.ipynb
 
     # - part: "Anwendungen"
     #   chapters:
@@ -53,5 +44,5 @@ format:
   html:
     theme: cosmo
     html-math-method: katex
-    code-fold: false
+    code-fold: true
     code-summary: "Anzeigen"
