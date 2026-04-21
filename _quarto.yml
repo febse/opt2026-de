@@ -18,6 +18,7 @@ book:
     - 04-Modeling-1.ipynb
     - Job-Assignment.ipynb
     - Max-Flow.ipynb
+    - cell_tower.ipynb
     # - 02-Graphical-Method/02-Blending.ipynb
     # - 02-Graphical-Method/03-Sensitivity-Analysis.ipynb
 
