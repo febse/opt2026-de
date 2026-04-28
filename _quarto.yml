@@ -19,6 +19,7 @@ book:
     - Job-Assignment.ipynb
     - Max-Flow.ipynb
     - cell_tower.ipynb
+    - power_schedule.ipynb
     # - 02-Graphical-Method/02-Blending.ipynb
     # - 02-Graphical-Method/03-Sensitivity-Analysis.ipynb
 
