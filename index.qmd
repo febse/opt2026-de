@@ -16,6 +16,8 @@ Die Übungen werden in Jupyter Notebooks durchgeführt. Alle Notebooks sind in d
 - [Mischung]({{< var colabPrefix >}}02-Graphical-Method/02-Blending-Class.ipynb)
 - [Sensitivitätsanalyse]({{< var colabPrefix >}}02-Graphical-Method/03-Sensitivity-Analysis-Class.ipynb)
 - [Burritos]({{< var colabPrefix >}}burrito_optimization_game.ipynb)
+- [Burritos Lösung](https://colab.research.google.com/github/febse/opt2026-de/blob/main/burrito_optimization_game.ipynb)
+- [https://tsp-game.graphhopper.com/](https://tsp-game.graphhopper.com/)
 
 ## Bewertung
 
